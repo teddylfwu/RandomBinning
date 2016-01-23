@@ -1,0 +1,64 @@
+DATASET: covtype-mult
+OneVsAll: time loading data = 0.686967 seconds
+Train. RandBin: Time (in seconds) for converting data format: 0.176211
+Train. RandBin: Time (in seconds) for generating random binning features: 0.486691
+Train. RandBin: Time (in seconds) for converting data format back: 0.0212838
+OneVsAll: n train = 46480, m test = 116203, r = 8, D = 454239, Gamma = 6.362300, num threads = 8
+Train. RandBin: Time (in seconds) for solving linear system solution: 3.54766
+Test. RandBin: param = 6.3623 0.0001, perf = 83.4083, time = 0.0212841
+DATASET: covtype-mult
+OneVsAll: time loading data = 0.582604 seconds
+Train. RandBin: Time (in seconds) for converting data format: 0.10573
+Train. RandBin: Time (in seconds) for generating random binning features: 0.785676
+Train. RandBin: Time (in seconds) for converting data format back: 0.0380427
+OneVsAll: n train = 46480, m test = 116203, r = 16, D = 649514, Gamma = 6.362300, num threads = 8
+Train. RandBin: Time (in seconds) for solving linear system solution: 5.19913
+Test. RandBin: param = 6.3623 0.0001, perf = 86.2895, time = 0.0236426
+DATASET: covtype-mult
+OneVsAll: time loading data = 0.537147 seconds
+Train. RandBin: Time (in seconds) for converting data format: 0.145538
+Train. RandBin: Time (in seconds) for generating random binning features: 1.62813
+Train. RandBin: Time (in seconds) for converting data format back: 0.0576582
+OneVsAll: n train = 46480, m test = 116203, r = 32, D = 1230447, Gamma = 6.362300, num threads = 8
+Train. RandBin: Time (in seconds) for solving linear system solution: 10.409
+Test. RandBin: param = 6.3623 0.0001, perf = 86.9676, time = 0.0428333
+DATASET: covtype-mult
+OneVsAll: time loading data = 0.547138 seconds
+Train. RandBin: Time (in seconds) for converting data format: 0.116151
+Train. RandBin: Time (in seconds) for generating random binning features: 3.57637
+Train. RandBin: Time (in seconds) for converting data format back: 0.145788
+OneVsAll: n train = 46480, m test = 116203, r = 64, D = 2355591, Gamma = 6.362300, num threads = 8
+Train. RandBin: Time (in seconds) for solving linear system solution: 18.424
+Test. RandBin: param = 6.3623 0.0001, perf = 87.8445, time = 0.154747
+DATASET: covtype-mult
+OneVsAll: time loading data = 0.541906 seconds
+Train. RandBin: Time (in seconds) for converting data format: 0.118521
+Train. RandBin: Time (in seconds) for generating random binning features: 7.70889
+Train. RandBin: Time (in seconds) for converting data format back: 0.311578
+OneVsAll: n train = 46480, m test = 116203, r = 128, D = 5221916, Gamma = 6.362300, num threads = 8
+Train. RandBin: Time (in seconds) for solving linear system solution: 38.8056
+Test. RandBin: param = 6.3623 0.0001, perf = 88.5442, time = 0.20177
+DATASET: covtype-mult
+OneVsAll: time loading data = 0.542393 seconds
+Train. RandBin: Time (in seconds) for converting data format: 0.118996
+Train. RandBin: Time (in seconds) for generating random binning features: 13.9798
+Train. RandBin: Time (in seconds) for converting data format back: 0.454542
+OneVsAll: n train = 46480, m test = 116203, r = 256, D = 9752505, Gamma = 6.362300, num threads = 8
+Train. RandBin: Time (in seconds) for solving linear system solution: 81.7281
+Test. RandBin: param = 6.3623 0.0001, perf = 89.1001, time = 0.492749
+DATASET: covtype-mult
+OneVsAll: time loading data = 0.677847 seconds
+Train. RandBin: Time (in seconds) for converting data format: 0.141684
+Train. RandBin: Time (in seconds) for generating random binning features: 30.2607
+Train. RandBin: Time (in seconds) for converting data format back: 0.85932
+OneVsAll: n train = 46480, m test = 116203, r = 512, D = 19841042, Gamma = 6.362300, num threads = 8
+Train. RandBin: Time (in seconds) for solving linear system solution: 175.477
+Test. RandBin: param = 6.3623 0.0001, perf = 89.0777, time = 1.02384
+DATASET: covtype-mult
+OneVsAll: time loading data = 0.541996 seconds
+Train. RandBin: Time (in seconds) for converting data format: 0.106648
+Train. RandBin: Time (in seconds) for generating random binning features: 56.6457
+Train. RandBin: Time (in seconds) for converting data format back: 1.81755
+OneVsAll: n train = 46480, m test = 116203, r = 1024, D = 39696765, Gamma = 6.362300, num threads = 8
+Train. RandBin: Time (in seconds) for solving linear system solution: 370.135
+Test. RandBin: param = 6.3623 0.0001, perf = 89.0425, time = 2.33665

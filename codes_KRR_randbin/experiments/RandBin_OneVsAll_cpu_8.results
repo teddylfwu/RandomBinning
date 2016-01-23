@@ -1,0 +1,116 @@
+DATASET: cpu
+RandBinning: time loading data = 0.0718724 seconds, n train = 6553, m test = 1639, num threads = 16
+RandBinning: Train. Time (in seconds) for converting data format: 0.00477974
+RandBinning: Train. Time (in seconds) for generating random binning features: 0.0133112
+RandBinning: Train. Time (in seconds) for converting data format back: 0.00116152
+RandBinning: Train. PCG: iteration = 2, Relative residual = 2.03306e-05
+RandBinning: Train. Time (in seconds) for solving linear system solution: 0.000531436
+RandBinning: OneVsAll. r = 8, D = 9, param = 0.01 0.01, perf = 0.210316, time = 0.0197839 4.1985e-05
+RandBinning: Train. Time (in seconds) for converting data format: 0.00450705
+RandBinning: Train. Time (in seconds) for generating random binning features: 0.0107475
+RandBinning: Train. Time (in seconds) for converting data format back: 0.000521075
+RandBinning: Train. PCG: iteration = 3, Relative residual = 2.81939e-05
+RandBinning: Train. Time (in seconds) for solving linear system solution: 0.000543698
+RandBinning: OneVsAll. r = 8, D = 13, param = 0.03 0.01, perf = 0.204753, time = 0.0163193 3.1285e-05
+RandBinning: Train. Time (in seconds) for converting data format: 0.00410875
+RandBinning: Train. Time (in seconds) for generating random binning features: 0.00959979
+RandBinning: Train. Time (in seconds) for converting data format back: 0.000372231
+RandBinning: Train. PCG: iteration = 11, Relative residual = 0.000844736
+RandBinning: Train. Time (in seconds) for solving linear system solution: 0.00189356
+RandBinning: OneVsAll. r = 8, D = 49, param = 0.1 0.01, perf = 0.0619057, time = 0.0159743 3.3232e-05
+RandBinning: Train. Time (in seconds) for converting data format: 0.00376653
+RandBinning: Train. Time (in seconds) for generating random binning features: 0.00903322
+RandBinning: Train. Time (in seconds) for converting data format back: 0.000370543
+RandBinning: Train. PCG: iteration = 8, Relative residual = 0.000946531
+RandBinning: Train. Time (in seconds) for solving linear system solution: 0.00137125
+RandBinning: OneVsAll. r = 8, D = 60, param = 0.14 0.01, perf = 0.0673633, time = 0.0145416 2.9837e-05
+RandBinning: Train. Time (in seconds) for converting data format: 0.00343902
+RandBinning: Train. Time (in seconds) for generating random binning features: 0.00889637
+RandBinning: Train. Time (in seconds) for converting data format back: 0.000556035
+RandBinning: Train. PCG: iteration = 9, Relative residual = 0.000697902
+RandBinning: Train. Time (in seconds) for solving linear system solution: 0.00155659
+RandBinning: OneVsAll. r = 8, D = 83, param = 0.19 0.01, perf = 0.072838, time = 0.014448 2.9642e-05
+RandBinning: Train. Time (in seconds) for converting data format: 0.00339012
+RandBinning: Train. Time (in seconds) for generating random binning features: 0.00876676
+RandBinning: Train. Time (in seconds) for converting data format back: 0.000368584
+RandBinning: Train. PCG: iteration = 16, Relative residual = 0.000664306
+RandBinning: Train. Time (in seconds) for solving linear system solution: 0.00260046
+RandBinning: OneVsAll. r = 8, D = 163, param = 0.28 0.01, perf = 0.0527403, time = 0.0151259 2.9661e-05
+RandBinning: Train. Time (in seconds) for converting data format: 0.00348669
+RandBinning: Train. Time (in seconds) for generating random binning features: 0.00882281
+RandBinning: Train. Time (in seconds) for converting data format back: 0.000534297
+RandBinning: Train. PCG: iteration = 15, Relative residual = 0.000722283
+RandBinning: Train. Time (in seconds) for solving linear system solution: 0.00246348
+RandBinning: OneVsAll. r = 8, D = 312, param = 0.39 0.01, perf = 0.0593147, time = 0.0153073 2.9643e-05
+RandBinning: Train. Time (in seconds) for converting data format: 0.00341311
+RandBinning: Train. Time (in seconds) for generating random binning features: 0.0087258
+RandBinning: Train. Time (in seconds) for converting data format back: 0.000368153
+RandBinning: Train. PCG: iteration = 17, Relative residual = 0.000802229
+RandBinning: Train. Time (in seconds) for solving linear system solution: 0.00282946
+RandBinning: OneVsAll. r = 8, D = 384, param = 0.56 0.01, perf = 0.0509105, time = 0.0153365 2.9524e-05
+RandBinning: Train. Time (in seconds) for converting data format: 0.0034743
+RandBinning: Train. Time (in seconds) for generating random binning features: 0.00871
+RandBinning: Train. Time (in seconds) for converting data format back: 0.000368027
+RandBinning: Train. PCG: iteration = 23, Relative residual = 0.000930202
+RandBinning: Train. Time (in seconds) for solving linear system solution: 0.00395614
+RandBinning: OneVsAll. r = 8, D = 1043, param = 0.79 0.01, perf = 0.0490964, time = 0.0165085 2.9887e-05
+RandBinning: Train. Time (in seconds) for converting data format: 0.00349703
+RandBinning: Train. Time (in seconds) for generating random binning features: 0.00875816
+RandBinning: Train. Time (in seconds) for converting data format back: 0.000356088
+RandBinning: Train. PCG: iteration = 30, Relative residual = 0.000830496
+RandBinning: Train. Time (in seconds) for solving linear system solution: 0.00526927
+RandBinning: OneVsAll. r = 8, D = 1498, param = 1.12 0.01, perf = 0.0590831, time = 0.0178805 2.9875e-05
+RandBinning: Train. Time (in seconds) for converting data format: 0.0034296
+RandBinning: Train. Time (in seconds) for generating random binning features: 0.00880114
+RandBinning: Train. Time (in seconds) for converting data format back: 0.000370325
+RandBinning: Train. PCG: iteration = 30, Relative residual = 0.000940307
+RandBinning: Train. Time (in seconds) for solving linear system solution: 0.00659047
+RandBinning: OneVsAll. r = 8, D = 2962, param = 1.58 0.01, perf = 0.0731003, time = 0.0191915 3.379e-05
+RandBinning: Train. Time (in seconds) for converting data format: 0.00389117
+RandBinning: Train. Time (in seconds) for generating random binning features: 0.0111421
+RandBinning: Train. Time (in seconds) for converting data format back: 0.000398504
+RandBinning: Train. PCG: iteration = 43, Relative residual = 0.000885848
+RandBinning: Train. Time (in seconds) for solving linear system solution: 0.0107901
+RandBinning: OneVsAll. r = 8, D = 6231, param = 2.23 0.01, perf = 0.119541, time = 0.0262219 3.2421e-05
+RandBinning: Train. Time (in seconds) for converting data format: 0.00354919
+RandBinning: Train. Time (in seconds) for generating random binning features: 0.0108538
+RandBinning: Train. Time (in seconds) for converting data format back: 0.000366665
+RandBinning: Train. PCG: iteration = 43, Relative residual = 0.000922587
+RandBinning: Train. Time (in seconds) for solving linear system solution: 0.0123815
+RandBinning: OneVsAll. r = 8, D = 9373, param = 3.16 0.01, perf = 0.159119, time = 0.0271511 3.1877e-05
+RandBinning: Train. Time (in seconds) for converting data format: 0.0032151
+RandBinning: Train. Time (in seconds) for generating random binning features: 0.0116322
+RandBinning: Train. Time (in seconds) for converting data format back: 0.000361627
+RandBinning: Train. PCG: iteration = 39, Relative residual = 0.000994444
+RandBinning: Train. Time (in seconds) for solving linear system solution: 0.0151681
+RandBinning: OneVsAll. r = 8, D = 16807, param = 4.46 0.01, perf = 0.250063, time = 0.0303771 3.1398e-05
+RandBinning: Train. Time (in seconds) for converting data format: 0.00328786
+RandBinning: Train. Time (in seconds) for generating random binning features: 0.0164666
+RandBinning: Train. Time (in seconds) for converting data format back: 0.000379797
+RandBinning: Train. PCG: iteration = 36, Relative residual = 0.00095195
+RandBinning: Train. Time (in seconds) for solving linear system solution: 0.0211686
+RandBinning: OneVsAll. r = 8, D = 28294, param = 6.3 0.01, perf = 0.384509, time = 0.0413029 4.5239e-05
+RandBinning: Train. Time (in seconds) for converting data format: 0.00325931
+RandBinning: Train. Time (in seconds) for generating random binning features: 0.0162351
+RandBinning: Train. Time (in seconds) for converting data format back: 0.000345945
+RandBinning: Train. PCG: iteration = 36, Relative residual = 0.000907857
+RandBinning: Train. Time (in seconds) for solving linear system solution: 0.024913
+RandBinning: OneVsAll. r = 8, D = 36317, param = 8.91 0.01, perf = 0.540759, time = 0.0447533 4.5709e-05
+RandBinning: Train. Time (in seconds) for converting data format: 0.00332537
+RandBinning: Train. Time (in seconds) for generating random binning features: 0.0193748
+RandBinning: Train. Time (in seconds) for converting data format back: 0.000476028
+RandBinning: Train. PCG: iteration = 30, Relative residual = 0.000831565
+RandBinning: Train. Time (in seconds) for solving linear system solution: 0.0232599
+RandBinning: OneVsAll. r = 8, D = 41917, param = 10 0.01, perf = 0.590693, time = 0.0464362 4.5883e-05
+RandBinning: Train. Time (in seconds) for converting data format: 0.00323835
+RandBinning: Train. Time (in seconds) for generating random binning features: 0.0226106
+RandBinning: Train. Time (in seconds) for converting data format back: 0.000482866
+RandBinning: Train. PCG: iteration = 17, Relative residual = 0.000860632
+RandBinning: Train. Time (in seconds) for solving linear system solution: 0.0218902
+RandBinning: OneVsAll. r = 8, D = 61477, param = 31.62 0.01, perf = 0.921576, time = 0.048222 3.326e-05
+RandBinning: Train. Time (in seconds) for converting data format: 0.00323821
+RandBinning: Train. Time (in seconds) for generating random binning features: 0.0212126
+RandBinning: Train. Time (in seconds) for converting data format back: 0.00050804
+RandBinning: Train. PCG: iteration = 8, Relative residual = 0.000686311
+RandBinning: Train. Time (in seconds) for solving linear system solution: 0.010959
+RandBinning: OneVsAll. r = 8, D = 64820, param = 100 0.01, perf = 0.97964, time = 0.0359179 3.2553e-05
