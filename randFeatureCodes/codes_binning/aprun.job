@@ -1,0 +1,17 @@
+#BSUB-m tulgb006                # host name
+#BSUB-q shared                  # Job queue
+#BSUB-o job.output              # output is sent to file job.output
+#BSUB-J RandBin                 # name of the job
+#BSUB-W 4200                    # Time limit in minutes
+
+# My instructions
+# Changing to the directory where my program is
+#CPU_PROC_BIND=true OMP_NUM_THREADS=6  XLSMPOPTS="startproc=0:stride=4" ./run_exp.sh >> results_DataSet_1e5_r_600_threads_6
+#CPU_PROC_BIND=true OMP_NUM_THREADS=24 XLSMPOPTS="startproc=0:stride=8" ./run_exp.sh >> results_DataSet_randbin_1e5_r_10_threads_24
+#CPU_PROC_BIND=true OMP_NUM_THREADS=48 XLSMPOPTS="startproc=0:stride=4" ./run_exp.sh >> results_DataSet_1e5_r_600_threads_48
+#CPU_PROC_BIND=true OMP_NUM_THREADS=96 XLSMPOPTS="startproc=0:stride=2" ./run_exp.sh >> results_DataSet_1e5_r_600_threads_96
+#CPU_PROC_BIND=true OMP_NUM_THREADS=192 XLSMPOPTS="startproc=0:stride=1" ./run_exp.sh >> results_DataSet_1e5_r_600_threads_192
+
+#CPU_PROC_BIND=true OMP_NUM_THREADS=24 XLSMPOPTS="startproc=0:stride=8" ./run_exp.sh >> results_DataSet_randbin_full_r_1000_threads_24
+
+./randFeature /gpfs/DDNgpfs1/teddywu/data/TIMIT/TIMIT_scaled.data data_randbin/TIMIT_scaled.randbin.D1000.Gamma0.08 1000 0.08
