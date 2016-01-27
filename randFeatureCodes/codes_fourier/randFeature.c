@@ -112,7 +112,7 @@ int main(int argc, char* argv[]){
     double *Ztrain = (double *)malloc(n*r*sizeof(double));
     ComputeFeatureMatrix(n, d, r, Xtrain, w, b, Ztrain, sigma);
     double *Ztest = (double *)malloc(m*r*sizeof(double));
-    ComputeFeatureMatrix(n, d, r, Xtest, w, b, Ztest, sigma);
+    ComputeFeatureMatrix(m, d, r, Xtest, w, b, Ztest, sigma);
 
     printf("Generate fourier feature: finish computing feature matrix\n");
     
@@ -132,9 +132,8 @@ int main(int argc, char* argv[]){
     free(ytest);
     free(w);
     free(b);
-    //No idea why have double-free problems for Ztrain and Ztest, resolve it later
-    //free(Ztrain);
-    //free(Ztest);
+    free(Ztrain);
+    free(Ztest);
 
     return 0;
 }
