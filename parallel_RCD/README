@@ -1,0 +1,25 @@
+============
+Compile:
+============
+make
+
+============
+Run:
+============
+./parallelGreedy [data] [L1_lambda] [method number] [#bucket_selected] [#threads]
+
+method number:
+	0:Naive2-PGCD
+	1:Naive1-PGCD
+	2:MIPS-PGCD
+	3:Random-PGCD
+	4:FC-PGCD
+	5:PRCD 
+
+============
+Other variable:
+============
+1. There are two loss functions available: logistic loss and square loss, which can be swithced by modifying the code of line 38 and 39 in parallelGreedy.cpp
+
+2. Number of clusters, K, can be specified in line 41 in parallelGreedy.cpp
+
