@@ -1,4 +1,4 @@
--e R D Sigma Lambda Perf TrainTime TestTime
+R D Sigma Lambda Perf TrainTime TestTime
 8 8 0.01 0.01 59.6912 8.9035 2.99535
 8 8 0.03 0.01 85.416 6.91715 2.98728
 8 8 0.1 0.01 91.2567 6.91805 2.98588

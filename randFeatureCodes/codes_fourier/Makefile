@@ -2,7 +2,7 @@ EXEC = randFeature
 SRC = $(wildcard *.c)
 OBJS := $(addsuffix .o, $(basename $(SRC)))
 
-CC = gcc 
+CC = gcc-mp-4.9 
 CFLAGS = -O3 -fopenmp -Wall
 
 BLAS_INCDIR = 
