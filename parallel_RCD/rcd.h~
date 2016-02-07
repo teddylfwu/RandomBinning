@@ -37,7 +37,7 @@ void rcd(vector<Feature*>& features, vector<double>& labels, int n, LossFunc* lo
 	int chunk = 10000;
 	double start = omp_get_wtime();
 	double minus_time=0.0;
-	for (int iter=1;iter<=max_iter; iter++){
+	for (int iter=0;iter<max_iter; iter++){
 		
 		#pragma omp parallel shared(chunk)
 		{
@@ -65,7 +65,7 @@ void rcd(vector<Feature*>& features, vector<double>& labels, int n, LossFunc* lo
 			}
 		}
 		
-		if ( iter % 10 == 0){
+		if ( (iter+1) % 10 == 0){
 
 			minus_time -= omp_get_wtime();
 			funval = 0.0;

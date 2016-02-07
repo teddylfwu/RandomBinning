@@ -40,8 +40,8 @@ double accuracy( vector<Instance*>& data, vector<double>& labels, double* w, int
 
 int main(int argc, char** argv){
 
-	if( argc < 1+6 ){
-		cerr << "./parallelRCD [data] [testdata] [L1_lambda] [loss(0:square,1:L2-hinge,2:logistic)] [num_threads] [num_iter] (stop_obj)" << endl;
+	if( argc < 1+5 ){
+		cerr << "./parallelRCD [data] [testdata] [L1_lambda] [loss(0:square,1:L2-hinge,2:logistic)] [num_threads]" << endl;
 		exit(0);
 	}
 
@@ -50,13 +50,7 @@ int main(int argc, char** argv){
 	double lambda = atof(argv[3]);
 	int loss_to_use = atoi(argv[4]);
 	int nThreads =atoi(argv[5]);
-	int nIter = atoi(argv[6]);
-	
-	double stop_obj = -1e300;
-	if( argc >= 1+7 ){
-		stop_obj = atof(argv[7]);
-	}
-	
+
 	omp_set_num_threads(nThreads);
 	
 	vector<Instance*> data;
@@ -82,7 +76,7 @@ int main(int argc, char** argv){
 		loss = new LogisticLoss();
 
 	double* w = new double[d];
-	rcd(features,labels,n,loss,lambda,w,nThreads, nIter, stop_obj);
+	rcd(features,labels,n,loss,lambda,w,nThreads);
 	
 	int d2;
 	readData(testFname, testdata, testlabels, d2);
