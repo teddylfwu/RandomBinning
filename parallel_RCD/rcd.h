@@ -55,7 +55,7 @@ void rcd(vector<Feature*>& features, vector<double>& labels, int n, LossFunc* lo
 					gradient += loss->deriv(factors[ii->first],labels[ii->first]) * ii->second;
 				}
 				double eta = softThd(w[j] - gradient/(Qii),lambda/(Qii)) - w[j];
-				if( fabs(eta)>1e-20 ){
+				if( fabs(eta)>1e-300 ){
 					w[j] += eta;
 					for (SparseVec::iterator ii = fea->values.begin(); ii != fea->values.end(); ++ii){
 						#pragma omp atomic
@@ -65,7 +65,7 @@ void rcd(vector<Feature*>& features, vector<double>& labels, int n, LossFunc* lo
 			}
 		}
 		
-		if ( iter % 1 == 0){
+		if ( iter % 10 == 0){
 
 			minus_time -= omp_get_wtime();
 			funval = 0.0;
@@ -75,7 +75,7 @@ void rcd(vector<Feature*>& features, vector<double>& labels, int n, LossFunc* lo
 			int nnz = 0;
 			for (int i=0; i<d;i++){
 				funval += lambda*fabs(w[i]);
-				if (fabs(w[i])>1e-20)
+				if (fabs(w[i])>1e-300)
 					nnz++;
 			}
 			

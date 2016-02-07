@@ -7,6 +7,7 @@ using namespace std;
 
 double RMSE( vector<Instance*>& data, vector<double>& labels, double* w, int d ){
 	
+	double y_sq_sum = 0.0;
 	double sqerr = 0.0;
 	for(int i=0;i<data.size();i++){
 		Instance* ins = data[i];
@@ -16,8 +17,9 @@ double RMSE( vector<Instance*>& data, vector<double>& labels, double* w, int d )
 			if( it->first < d )
 				prod += w[it->first] * it->second;
 		sqerr += (y-prod)*(y-prod);
+		y_sq_sum += y*y;
 	}
-	sqerr /= data.size();
+	sqerr /= y_sq_sum;
 	return sqrt(sqerr);
 }
 
