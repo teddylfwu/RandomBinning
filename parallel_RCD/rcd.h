@@ -33,12 +33,15 @@ void rcd(vector<Feature*>& features, vector<double>& labels, int n, LossFunc* lo
 	//int* pi = new int[d];
 	//for (int i=0;i<d;i++)
 	//	pi[i] = rand()%d;
-	
+    
+    int Seed = 0;	
+    // Seed the RNG
+    srandom(Seed);	
 	int chunk = 10000;
 	double start = omp_get_wtime();
 	double minus_time=0.0;
 	for (int iter=1;iter<=max_iter; iter++){
-		
+	
 		#pragma omp parallel shared(chunk)
 		{
 			#pragma omp for schedule(dynamic,chunk) nowait
@@ -90,7 +93,7 @@ void rcd(vector<Feature*>& features, vector<double>& labels, int n, LossFunc* lo
 
 			double end = omp_get_wtime();
 			double time_used = end-start-minus_time;
-			cerr  << setprecision(15)<<setw(20) << iter << setw(20) << time_used << setw(20) << funval << setw(10)<<nnz<< endl;
+			cout  << setprecision(15)<<setw(20) << iter << setw(20) << time_used << setw(20) << funval << setw(10)<<nnz<< endl;
 			if( funval < stop_obj ){
 				break;
 			}
